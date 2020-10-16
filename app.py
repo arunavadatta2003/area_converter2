@@ -26,8 +26,8 @@ sidebar.sidebar-content {
 st.header('User Input')
 x = st.number_input("Bigha",0.0)
 y = st.number_input("Katha",0.0)
-z = st.number_input("Chattak",0.0)
-sq_ft = st.number_input("Sq.ft.",0.0)
+z = st.number_input("Chattak",0.0,15.9999)
+sq_ft = st.number_input("Sq.ft.",0.0,44.9999)
 
 total_sq_ft = round(x*20*720 + y*720 + z*45 + sq_ft,2)
 st.write("Total Sq.ft. - ", total_sq_ft)
