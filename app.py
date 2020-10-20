@@ -25,7 +25,7 @@ sidebar.sidebar-content {
 # Create a function to get user inputs
 st.header('User Input')
 x = st.number_input("Bigha",0.0)
-y = st.number_input("Katha",0.0)
+y = st.number_input("Katha",0.0,19.99)
 z = st.number_input("Chattak",0.0,15.9999)
 sq_ft = st.number_input("Sq.ft.",0.0,44.9999)
 
