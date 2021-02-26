@@ -42,6 +42,10 @@ elif total_sq_m >= 500:
 elif 200 < total_sq_m < 500:
     a = round(50 + (0.05*(500 - total_sq_m)),2)
 st.write('Permissible Ground Coverage -',a,"%")
+b = ((a * total_sq_m)/100)
+st.write('Permissible Ground Coverage -',b,"Sq.m.")
+c = ((a * total_sq_ft)/100)
+st.write('Permissible Ground Coverage -',c,"Sq.ft.")
 
 
 
